@@ -1,4 +1,4 @@
-import { Project, Screenshot, Skill, SocialLink } from '../models/project.model';
+import { Project, Skill, SocialLink } from '../models/project.model';
 
 export const PROJECTS: Project[] = [
   {
