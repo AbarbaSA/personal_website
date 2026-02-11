@@ -1,0 +1,48 @@
+<section class="hero" @fadeInUp>
+  <div class="hero-content">
+    <h1 class="title">{{ title }}</h1>
+    <h2 class="subtitle">{{ subtitle }}</h2>
+    <p class="description">{{ description }}</p>
+
+    @if (showCta) {
+    <div class="cta-buttons">
+      <a routerLink="/projects" class="btn btn-primary">View My Work</a>
+      <a routerLink="/contact" class="btn btn-secondary">Get In Touch</a>
+    </div>
+    }
+  </div>
+
+  <div class="hero-decoration">
+    <p class="wall-tagline">Whatever route you choose,<br />I'll help you reach the top.</p>
+    <div class="climbing-wall">
+      <div class="wall-panel panel-1"></div>
+      <div class="wall-panel panel-2"></div>
+      <div class="wall-panel panel-3"></div>
+
+      <!-- Climbing holds - detailed SVGs with built-in colors -->
+      <img class="hold hold-1" src="assets/svg/holds/Route1/route1_hold1.svg" alt="" />
+      <img class="hold hold-2" src="assets/svg/holds/Route1/route1_hold2.svg" alt="" />
+      <img class="hold hold-3" src="assets/svg/holds/Route1/route1_hold3.svg" alt="" />
+      <img class="hold hold-4" src="assets/svg/holds/Route1/route1_hold4.svg" alt="" />
+      <img class="hold hold-5" src="assets/svg/holds/Route1/route1_hold5.svg" alt="" />
+      <img class="hold hold-6" src="assets/svg/holds/Route2/route2_hold1.svg" alt="" />
+      <img class="hold hold-7" src="assets/svg/holds/Route2/route2_hold2.svg" alt="" />
+      <img class="hold hold-8" src="assets/svg/holds/Route2/route2_hold3.svg" alt="" />
+      <img class="hold hold-9" src="assets/svg/holds/Route2/route2_hold4.svg" alt="" />
+      <img class="hold hold-21" src="assets/svg/holds/Route2/route2_hold5.svg" alt="" />
+      <img class="hold hold-10" src="assets/svg/holds/Route3/route3_hold1.svg" alt="" />
+      <img class="hold hold-11" src="assets/svg/holds/Route3/route3_hold2.svg" alt="" />
+      <img class="hold hold-12" src="assets/svg/holds/Route3/route3_hold3.svg" alt="" />
+      <img class="hold hold-13" src="assets/svg/holds/Route3/route3_hold4.svg" alt="" />
+      <img class="hold hold-14" src="assets/svg/holds/Route3/route3_hold5.svg" alt="" />
+      <img class="hold hold-15" src="assets/svg/holds/Route4/route4_hold1.svg" alt="" />
+      <img class="hold hold-16" src="assets/svg/holds/Route4/route4_hold2.svg" alt="" />
+      <img class="hold hold-17" src="assets/svg/holds/Route4/route4_hold3.svg" alt="" />
+      <img class="hold hold-18" src="assets/svg/holds/Route4/route4_hold4.svg" alt="" />
+      <img class="hold hold-19" src="assets/svg/holds/Route4/route4_hold5.svg" alt="" />
+      <img class="hold hold-20" src="assets/svg/holds/Route4/route4_hold6.svg" alt="" />
+    </div>
+    <a class="wall-credit" href="https://www.vecteezy.com/free-vector/climbing-wall" target="_blank"
+      rel="noopener">Climbing Wall Vectors by Vecteezy</a>
+  </div>
+</section>

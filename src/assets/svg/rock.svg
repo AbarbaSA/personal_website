@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 8 60 56">
+  <defs>
+    <linearGradient id="holdGradient" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#9a7530"/>
+      <stop offset="50%" stop-color="#b8893d"/>
+      <stop offset="100%" stop-color="#d4a34a"/>
+    </linearGradient>
+    <linearGradient id="indentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d090"/>
+      <stop offset="40%" stop-color="#e8c078"/>
+      <stop offset="100%" stop-color="#d4a34a"/>
+    </linearGradient>
+    <radialGradient id="boltHole" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="60%" stop-color="#2d2d2d"/>
+      <stop offset="100%" stop-color="#444"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main hold shape with concave indentation on upper left -->
+  <path fill="url(#holdGradient)" d="
+    M 6 30
+    Q 2 42, 6 52
+    Q 12 62, 28 62
+    Q 48 62, 58 48
+    Q 64 38, 60 26
+    Q 56 14, 44 8
+    Q 32 2, 22 8
+    C 28 16, 32 28, 26 38
+    C 20 48, 10 42, 6 30
+    Z
+  "/>
+
+  <!-- Indented surface (the concave part) -->
+  <path fill="url(#indentGradient)" d="
+    M 6 30
+    Q 4 36, 6 42
+    C 10 48, 20 48, 26 38
+    C 32 28, 28 16, 22 8
+    Q 16 12, 12 20
+    Q 8 26, 6 30
+    Z
+  "/>
+
+  <!-- Bolt hole outer ring -->
+  <circle cx="32" cy="38" r="5.5" fill="#b8893d"/>
+
+  <!-- Bolt hole inner -->
+  <circle cx="32" cy="38" r="4" fill="url(#boltHole)"/>
+
+  <!-- Bolt hole highlight -->
+  <circle cx="30.5" cy="36.5" r="1" fill="#555" opacity="0.5"/>
+</svg>

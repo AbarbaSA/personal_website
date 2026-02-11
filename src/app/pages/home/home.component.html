@@ -1,0 +1,24 @@
+<app-hero />
+<section class="featured-section">
+  <div class="section-container">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+      @for (project of featuredProjects; track project.id) {
+      <app-project-card [project]="project" />
+      }
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="section-container">
+    <div class="cta-content">
+      <h2>Work With Me</h2>
+      <p>I'm always interested in hearing about new projects and opportunities.</p>
+      <a routerLink="/contact" class="btn btn-primary">Get In Touch</a>
+    </div>
+  </div>
+</section>
