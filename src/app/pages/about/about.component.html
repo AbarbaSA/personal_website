@@ -1,0 +1,161 @@
+<section class="about-page">
+  <div class="page-container">
+    <header class="page-header">
+      <h1>About Me</h1>
+    </header>
+
+    <div class="about-content">
+      <div class="bio-section">
+        <div class="bio-text">
+          <h2>Heya!</h2>
+          <p>
+            I'm Sarah, a full-stack developer passionate about building great user experiences and back-end
+            functionality. I enjoy tackling complex
+            problems and turning ideas into polished products.
+          </p>
+          <p>
+            When I'm not coding, you can find me bouldering, practicing my French, buying hideous needlework from the
+            80's, and turning comical quantities of discounted raw ingredients into products my friends and family
+            actually want to eat.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-section">
+        <h2>Skills & Technologies</h2>
+
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skills-grid">
+            @for (skill of frontendSkills; track skill.name) {
+            <app-skill-badge [skill]="skill" />
+            }
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skills-grid">
+            @for (skill of backendSkills; track skill.name) {
+            <app-skill-badge [skill]="skill" />
+            }
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools & Workflow</h3>
+          <div class="skills-grid">
+            @for (skill of toolsSkills; track skill.name) {
+            <app-skill-badge [skill]="skill" />
+            }
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-section">
+        <h2>Experience</h2>
+        <div class="experience-list">
+          <div class="experience-item">
+            <div class="company-logo">
+              <img src="assets/logos/navigators.png" alt="Navigators of Canada logo" />
+            </div>
+            <div class="experience-details">
+              <h3>Software Consultant</h3>
+              <p class="company">Navigators of Canada</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="company-logo">
+              <img src="assets/logos/baker-tilly.png" alt="Baker Tilly Canada logo" />
+            </div>
+            <div class="experience-details">
+              <h3>Software Consultant</h3>
+              <p class="company">Baker Tilly Canada</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="company-logo">
+              <img src="assets/logos/quest.png" alt="Quest Software logo" />
+            </div>
+            <div class="experience-details">
+              <h3>Software Developer</h3>
+              <p class="company">Quest Software</p>
+              <p class="products">On Demand Audit</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="company-logo">
+              <img src="assets/logos/qra.jpg" alt="QRA Corp logo" />
+            </div>
+            <div class="experience-details">
+              <h3>Software Engineer</h3>
+              <p class="company">QRA Corp</p>
+              <p class="products">QVScribe for Microsoft Office, QVScribe for Doors, QVScribe License Management</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="company-logo">
+              <img src="assets/logos/quest.png" alt="Quest Software logo" />
+            </div>
+            <div class="experience-details">
+              <h3>Software Developer Intern</h3>
+              <p class="company">Quest Software</p>
+              <p class="products">Change Auditor for Active Directory</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="company-logo">
+              <img src="assets/logos/dalhousie.png" alt="Dalhousie University logo" />
+            </div>
+            <div class="experience-details">
+              <h3>Teaching Assistant</h3>
+              <p class="company">Dalhousie University</p>
+              <p class="products">Lab Instructor, 1:1 Tutor</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="company-logo">
+              <img src="assets/logos/qra.jpg" alt="QRA Corp logo" />
+            </div>
+            <div class="experience-details">
+              <h3>Software Engineer Intern</h3>
+              <p class="company">QRA Corp</p>
+              <p class="products">QVScribe</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="company-logo">
+              <img src="assets/logos/salesforce.jpg" alt="Salesforce logo" />
+            </div>
+            <div class="experience-details">
+              <h3>Android SDK Developer Intern</h3>
+              <p class="company">Salesforce</p>
+              <p class="products">Embedded Service SDK for Mobile Apps</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-section">
+        <h2>Education</h2>
+        <div class="education-item">
+          <div class="school-logo">
+            <img src="assets/logos/dalhousie.png" alt="Dalhousie University logo" />
+          </div>
+          <div class="education-details">
+            <h3>Bachelor of Computer Science</h3>
+            <p class="school">Dalhousie University</p>
+            <p class="year">2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
