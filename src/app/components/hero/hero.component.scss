@@ -150,7 +150,7 @@
   top: 80%;
   left: 75%;
   transform: rotate(-80deg);
-  animation: route_1 64s ease-in-out infinite, hold-1-rotate 64s ease-in-out infinite;
+  animation: route_1 64s ease-in-out infinite, hold_1_rotate 64s ease-in-out infinite;
 }
 
 .hold-2 {
@@ -158,7 +158,7 @@
   top: 5%;
   left: 60%;
   transform: rotate(10deg);
-  animation: route_1 64s ease-in-out infinite, hold-2-rotate 64s ease-in-out infinite;
+  animation: route_1 64s ease-in-out infinite, hold_2_rotate 64s ease-in-out infinite;
 }
 
 .hold-3 {
@@ -166,7 +166,7 @@
   top: 18%;
   left: 75%;
   transform: rotate(0deg);
-  animation: route_1 64s ease-in-out infinite, hold-3-rotate 64s ease-in-out infinite;
+  animation: route_1 64s ease-in-out infinite, hold_3_rotate 64s ease-in-out infinite;
 }
 
 .hold-4 {
@@ -174,7 +174,7 @@
   top: 50%;
   left: 75%;
   transform: rotate(-8deg);
-  animation: route_1 64s ease-in-out infinite, hold-4-rotate 64s ease-in-out infinite;
+  animation: route_1 64s ease-in-out infinite, hold_4_rotate 64s ease-in-out infinite;
 }
 
 .hold-5 {
@@ -182,7 +182,7 @@
   top: 32%;
   left: 55%;
   transform: rotate(20deg);
-  animation: route_1 64s ease-in-out infinite, hold-5-rotate 64s ease-in-out infinite;
+  animation: route_1 64s ease-in-out infinite, hold_5_rotate 64s ease-in-out infinite;
 }
 
 .hold-6 {
@@ -190,7 +190,7 @@
   top: 69%;
   left: 0%;
   transform: rotate(-80deg);
-  animation: route_2 64s ease-in-out infinite, hold-6-rotate 64s ease-in-out infinite;
+  animation: route_2 64s ease-in-out infinite, hold_6_rotate 64s ease-in-out infinite;
 }
 
 .hold-7 {
@@ -198,7 +198,7 @@
   top: 50%;
   left: 20%;
   transform: rotate(15deg);
-  animation: route_2 64s ease-in-out infinite, hold-7-rotate 64s ease-in-out infinite;
+  animation: route_2 64s ease-in-out infinite, hold_7_rotate 64s ease-in-out infinite;
 }
 
 .hold-8 {
@@ -206,7 +206,7 @@
   top: 52%;
   left: 40%;
   transform: rotate(-12deg);
-  animation: route_2 64s ease-in-out infinite, hold-8-rotate 64s ease-in-out infinite;
+  animation: route_2 64s ease-in-out infinite, hold_8_rotate 64s ease-in-out infinite;
 }
 
 .hold-9 {
@@ -214,7 +214,7 @@
   top: 35%;
   left: 70%;
   transform: rotate(8deg);
-  animation: route_2 64s ease-in-out infinite, hold-9-rotate 64s ease-in-out infinite;
+  animation: route_2 64s ease-in-out infinite, hold_9_rotate 64s ease-in-out infinite;
 }
 
 .hold-10 {
@@ -222,7 +222,7 @@
   top: 15%;
   left: 37%;
   transform: rotate(-20deg);
-  animation: route_3 64s ease-in-out infinite, hold-10-rotate 64s ease-in-out infinite;
+  animation: route_3 64s ease-in-out infinite, hold_10_rotate 64s ease-in-out infinite;
 }
 
 .hold-11 {
@@ -230,7 +230,7 @@
   top: 85%;
   left: 20%;
   transform: rotate(5deg);
-  animation: route_3 64s ease-in-out infinite, hold-11-rotate 64s ease-in-out infinite;
+  animation: route_3 64s ease-in-out infinite, hold_11_rotate 64s ease-in-out infinite;
 }
 
 .hold-12 {
@@ -238,7 +238,7 @@
   top: 5%;
   left: 20%;
   transform: rotate(-10deg);
-  animation: route_3 64s ease-in-out infinite, hold-12-rotate 64s ease-in-out infinite;
+  animation: route_3 64s ease-in-out infinite, hold_12_rotate 64s ease-in-out infinite;
 }
 
 .hold-13 {
@@ -246,7 +246,7 @@
   top: 65%;
   left: 22%;
   transform: rotate(12deg);
-  animation: route_3 64s ease-in-out infinite, hold-13-rotate 64s ease-in-out infinite;
+  animation: route_3 64s ease-in-out infinite, hold_13_rotate 64s ease-in-out infinite;
 }
 
 .hold-14 {
@@ -254,7 +254,7 @@
   top: 28%;
   left: 8%;
   transform: rotate(-18deg);
-  animation: route_3 64s ease-in-out infinite, hold-14-rotate 64s ease-in-out infinite;
+  animation: route_3 64s ease-in-out infinite, hold_14_rotate 64s ease-in-out infinite;
 }
 
 .hold-15 {
@@ -262,7 +262,7 @@
   top: 40%;
   left: 30%;
   transform: rotate(5deg);
-  animation: route_4 64s ease-in-out infinite, hold-15-rotate 64s ease-in-out infinite;
+  animation: route_4 64s ease-in-out infinite, hold_15_rotate 64s ease-in-out infinite;
 }
 
 .hold-16 {
@@ -270,7 +270,7 @@
   top: 48%;
   left: 58%;
   transform: rotate(-8deg);
-  animation: route_4 64s ease-in-out infinite, hold-16-rotate 64s ease-in-out infinite;
+  animation: route_4 64s ease-in-out infinite, hold_16_rotate 64s ease-in-out infinite;
 }
 
 .hold-17 {
@@ -278,7 +278,7 @@
   top: 5%;
   left: 8%;
   transform: rotate(22deg);
-  animation: route_4 64s ease-in-out infinite, hold-17-rotate 64s ease-in-out infinite;
+  animation: route_4 64s ease-in-out infinite, hold_17_rotate 64s ease-in-out infinite;
 }
 
 .hold-18 {
@@ -286,7 +286,7 @@
   top: 72%;
   left: 48%;
   transform: rotate(-15deg);
-  animation: route_4 64s ease-in-out infinite, hold-18-rotate 64s ease-in-out infinite;
+  animation: route_4 64s ease-in-out infinite, hold_18_rotate 64s ease-in-out infinite;
 }
 
 .hold-19 {
@@ -294,7 +294,7 @@
   top: 30%;
   left: 30%;
   transform: rotate(10deg);
-  animation: route_4 64s ease-in-out infinite, hold-19-rotate 64s ease-in-out infinite;
+  animation: route_4 64s ease-in-out infinite, hold_19_rotate 64s ease-in-out infinite;
 }
 
 .hold-20 {
@@ -302,7 +302,7 @@
   top: 92%;
   left: 55%;
   transform: rotate(-5deg);
-  animation: route_4 64s ease-in-out infinite, hold-20-rotate 64s ease-in-out infinite;
+  animation: route_4 64s ease-in-out infinite, hold_20_rotate 64s ease-in-out infinite;
 }
 
 .hold-21 {
@@ -310,7 +310,7 @@
   top: 5%;
   left: 87%;
   transform: rotate(-5deg);
-  animation: route_2 64s ease-in-out infinite, hold-21-rotate 64s ease-in-out infinite;
+  animation: route_2 64s ease-in-out infinite, hold_21_rotate 64s ease-in-out infinite;
 }
 
 // Route highlight animations
@@ -567,7 +567,7 @@
 // Rotation is 15% of each 6.25% window = 0.9375%
 
 // route_1 holds: rotate at 5.3125-6.25%, 30.3125-31.25%, 55.3125-56.25%, 80.3125-81.25%
-@keyframes hold-1-rotate {
+@keyframes hold_1_rotate {
 
   0%,
   5.3125% {
@@ -607,7 +607,7 @@
   }
 }
 
-@keyframes hold-2-rotate {
+@keyframes hold_2_rotate {
 
   0%,
   5.3125% {
@@ -647,7 +647,7 @@
   }
 }
 
-@keyframes hold-3-rotate {
+@keyframes hold_3_rotate {
 
   0%,
   5.3125% {
@@ -687,7 +687,7 @@
   }
 }
 
-@keyframes hold-4-rotate {
+@keyframes hold_4_rotate {
 
   0%,
   5.3125% {
@@ -727,7 +727,7 @@
   }
 }
 
-@keyframes hold-5-rotate {
+@keyframes hold_5_rotate {
 
   0%,
   5.3125% {
@@ -768,7 +768,7 @@
 }
 
 // route_2 holds: rotate at 11.5625-12.5%, 36.5625-37.5%, 61.5625-62.5%, 86.5625-87.5%
-@keyframes hold-6-rotate {
+@keyframes hold_6_rotate {
 
   0%,
   11.5625% {
@@ -808,7 +808,7 @@
   }
 }
 
-@keyframes hold-7-rotate {
+@keyframes hold_7_rotate {
 
   0%,
   11.5625% {
@@ -848,7 +848,7 @@
   }
 }
 
-@keyframes hold-8-rotate {
+@keyframes hold_8_rotate {
 
   0%,
   11.5625% {
@@ -888,7 +888,7 @@
   }
 }
 
-@keyframes hold-9-rotate {
+@keyframes hold_9_rotate {
 
   0%,
   11.5625% {
@@ -928,7 +928,7 @@
   }
 }
 
-@keyframes hold-21-rotate {
+@keyframes hold_21_rotate {
 
   0%,
   11.5625% {
@@ -969,7 +969,7 @@
 }
 
 // route_3 holds: rotate at 17.8125-18.75%, 42.8125-43.75%, 67.8125-68.75%, 92.8125-93.75%
-@keyframes hold-10-rotate {
+@keyframes hold_10_rotate {
 
   0%,
   17.8125% {
@@ -1009,7 +1009,7 @@
   }
 }
 
-@keyframes hold-11-rotate {
+@keyframes hold_11_rotate {
 
   0%,
   17.8125% {
@@ -1049,7 +1049,7 @@
   }
 }
 
-@keyframes hold-12-rotate {
+@keyframes hold_12_rotate {
 
   0%,
   17.8125% {
@@ -1089,7 +1089,7 @@
   }
 }
 
-@keyframes hold-13-rotate {
+@keyframes hold_13_rotate {
 
   0%,
   17.8125% {
@@ -1129,7 +1129,7 @@
   }
 }
 
-@keyframes hold-14-rotate {
+@keyframes hold_14_rotate {
 
   0%,
   17.8125% {
@@ -1170,7 +1170,7 @@
 }
 
 // route_4 holds: rotate at 24.0625-25%, 49.0625-50%, 74.0625-75%, 99.0625-100%
-@keyframes hold-15-rotate {
+@keyframes hold_15_rotate {
 
   0%,
   24.0625% {
@@ -1206,7 +1206,7 @@
   }
 }
 
-@keyframes hold-16-rotate {
+@keyframes hold_16_rotate {
 
   0%,
   24.0625% {
@@ -1242,7 +1242,7 @@
   }
 }
 
-@keyframes hold-17-rotate {
+@keyframes hold_17_rotate {
 
   0%,
   24.0625% {
@@ -1278,7 +1278,7 @@
   }
 }
 
-@keyframes hold-18-rotate {
+@keyframes hold_18_rotate {
 
   0%,
   24.0625% {
@@ -1314,7 +1314,7 @@
   }
 }
 
-@keyframes hold-19-rotate {
+@keyframes hold_19_rotate {
 
   0%,
   24.0625% {
@@ -1350,7 +1350,7 @@
   }
 }
 
-@keyframes hold-20-rotate {
+@keyframes hold_20_rotate {
 
   0%,
   24.0625% {

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { animate, style, transition, trigger } from '@angular/animations';
 
@@ -8,6 +8,7 @@ import { animate, style, transition, trigger } from '@angular/animations';
   imports: [RouterLink],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.scss',
+  encapsulation: ViewEncapsulation.None,
   animations: [
     trigger('fadeInUp', [
       transition(':enter', [
