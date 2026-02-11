@@ -10,7 +10,7 @@
     "build:ghpages": "ng build --configuration production --base-href /sarah-personal-website/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href /sarah-personal-website/ && npx angular-cli-ghpages --dir=dist/sarah-personal-website/browser"
+    "deploy": "cross-env MSYS_NO_PATHCONV=1 ng build --base-href=/personal_website/ && npx angular-cli-ghpages --dir=dist/sarah-personal-website/browser"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +32,7 @@
     "@angular/compiler-cli": "^17.3.0",
     "@types/node": "^20.0.0",
     "angular-cli-ghpages": "^2.0.3",
+    "cross-env": "^10.1.0",
     "typescript": "~5.4.0"
   }
 }
