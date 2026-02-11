@@ -1,0 +1,70 @@
+@if (project) {
+<article class="project-detail">
+  <div class="page-container">
+    <a routerLink="" class="back-link">&larr; Home </a>
+
+    <header class="project-header">
+      @if (project.featured) {
+      <span class="featured-badge">Featured Project</span>
+      }
+      <h1>{{ project.title }}</h1>
+      <p class="description">{{ project.description }}</p>
+
+      <div class="project-links">
+        @if (project.liveUrl) {
+        <a [href]="project.liveUrl" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          View Live Demo
+        </a>
+        }
+        @if (project.repoUrl) {
+        <a [href]="project.repoUrl" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          View Source Code
+        </a>
+        }
+      </div>
+    </header>
+
+    @if (project.imageUrl) {
+    <div class="project-image">
+      <img [src]="project.imageUrl" [alt]="project.title" />
+    </div>
+    }
+
+    @if (project.screenshots && project.screenshots.length > 0) {
+    <section class="screenshots-section">
+      <h2>Examples</h2>
+      <div class="screenshots-grid">
+        @for (screenshot of project.screenshots; track screenshot.url) {
+        <figure class="screenshot">
+          <img [src]="screenshot.url" [alt]="screenshot.caption || project.title + ' screenshot'" loading="lazy" />
+          @if (screenshot.caption) {
+          <figcaption>{{ screenshot.caption }}</figcaption>
+          }
+        </figure>
+        }
+      </div>
+    </section>
+    }
+
+    <div class="project-content">
+      <section class="tech-section">
+        <h2>Technologies Used</h2>
+        <ul class="tech-list">
+          @for (tech of project.techStack; track tech) {
+          <li>{{ tech }}</li>
+          }
+        </ul>
+      </section>
+
+      @if (project.longDescription) {
+      <section class="details-section">
+        <h2>About This Project</h2>
+        <div class="long-description">
+          {{ project.longDescription }}
+        </div>
+      </section>
+      }
+    </div>
+  </div>
+</article>
+}
