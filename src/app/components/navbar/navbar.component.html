@@ -1,0 +1,45 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <a routerLink="/" class="navbar-brand" (click)="closeMenu()" aria-label="Sarah - Home">
+      <img src="assets/svg/hold_s.svg" alt="S logo" class="brand-logo">
+    </a>
+
+    <!-- Desktop Navigation -->
+    <ul class="nav-links desktop-nav">
+      @for (item of navItems; track item.path) {
+      <li>
+        <a [routerLink]="item.path" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: item.exact }">
+          {{ item.label }}
+        </a>
+      </li>
+      }
+    </ul>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" (click)="toggleMenu()" [attr.aria-expanded]="isMenuOpen()"
+      aria-label="Toggle navigation menu">
+      <span class="hamburger" [class.open]="isMenuOpen()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+  </div>
+
+  <!-- Mobile Navigation -->
+  @if (isMenuOpen()) {
+  <div class="mobile-nav-backdrop" [@fadeInOut]="'open'" (click)="closeMenu()"></div>
+  <div class="mobile-nav-drawer" [@slideInOut]="'open'">
+    <ul class="nav-links">
+      @for (item of navItems; track item.path) {
+      <li>
+        <a [routerLink]="item.path" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: item.exact }"
+          (click)="closeMenu()">
+          {{ item.label }}
+        </a>
+      </li>
+      }
+    </ul>
+  </div>
+  }
+</nav>
